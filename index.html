@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>JesMar</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Bootslander
+  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
+  * Updated: Aug 01 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">JesMar</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Acceuil</a></li>
+          <li><a href="#Formations">Nos Formations</a></li>
+          <!-- <li><a href="#Admission et Inscription">Admission et Inscription</a></li> -->
+          <li class="dropdown"><a href="#event-gallery"><span>À l'Agenda : Nos Temps Forts</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <!-- <li><a href="#">Moment fort</a></li> -->
+              <li class="dropdown"><a href="#"><span>Soyez au Cœur de Nos Activités</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <!-- <li><a href="#">En cours</a></li>
+                  <li><a href="#">En Attentes</a></li> -->
+                  <li><a href="#">En cours</a></li>
+                  <li><a href="#">En Attentes</a></li>
+                  <li><a href="#">À Travers le Temps : Nos Meilleurs Moments</a></li>
+                </ul>
+              </li>
+              <!-- <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li> -->
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-between">
+          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/Iju.jpg" class="img-fluid animated" alt="" style="width: 600px; height: 500px; object-fit: cover;">
+          </div>
+
+          <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
+            <h1>Bienvenue à <span>JesMar</span></h1>
+            <p>À JesMar, nous offrons des formations de haut niveau dans des domaines techniques variés pour préparer les professionnels de demain. Grâce à des formateurs expérimentés et des infrastructures modernes, nous mettons tout en œuvre pour que vous puissiez acquérir les compétences indispensables au monde du travail.
+            </p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">En savoir plus</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3"></use>
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0"></use>
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h3 id="Formations">Nos Formations</h3>
+            <h2>Des formations techniques adaptées à vos besoins</h2>
+              <p>Nous proposons des formations sur mesure pour répondre aux exigences du marché du travail. Que vous soyez un débutant souhaitant se spécialiser dans un domaine technique, ou un professionnel cherchant à développer ses compétences, notre école offre une large gamme de programmes, tels que :
+              </p>
+            <a href="#details" class="read-more"><span> Voir plus</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-buildings"></i>
+                  <h3>Installation et Maintenance en Informatique (IMI)</h3>
+                  <p>Acquérir des compétences pratiques et théoriques de l'installation des ordinateurs de bureau et portables, des imprimantes et des réseaux informatiques pour grandes entreprises.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h3>Comptabilité et Mercatique (CoM)</h3>
+                  <p>Pouvoir tenir des documents de grandes ou petites entreprises de façon manuelle ou virtuelle via un logiciel de gestion intégréeou de donner des conseils en marketing ou encore mettre en place et gérer le service marketing.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-clipboard-pulse"></i>
+                  <h3>Développement Web et Mobile (DWM)</h3>
+                  <p>En tend que développeur web, devenez spécialiste de conception, de réalisation des sites et applications web, des programmes destinés exclusivement aux ordinateurs, smartphones et tablettes.</p>
+                </div>
+
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-command"></i>
+                  <h3>Métier de Mode et de Vêtement (MMV)</h3>
+                  <p>Métier emblématique dans le secteur de la mode, en tend que styliste-moderne, fashion designer et designer textile vous serez créateur de mode et d'accesoires de mode.</p>
+                </div>
+
+              </div> <!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+  
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-emoji-smile"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Clients satisfait</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-journal-richtext"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projets</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-headset"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Heures de support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-people"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Personnes dévouées</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Details Section -->
+    <section id="details" class="details section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Nos Atouts</h2>
+        <div><span>Pourquoi choisir JesMar ?</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/details-1.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <h3>Formateurs expérimentés</h3>
+            <p class="fst-italic">
+              Nos enseignants sont des professionnels chevronnés, issus de différents secteurs d'activité, qui mettent à profit des années d'expérience pratique pour offrir une formation de qualité. Leur passion pour l'enseignement se reflète dans leur capacité à rendre les concepts complexes accessibles à tous. Toujours à l'écoute des besoins des apprenants, ils favorisent un apprentissage interactif et dynamique, basé sur des exemples concrets et des études de cas réels. <br>
+              <br>
+              En plus de transmettre leur savoir-faire, ils encouragent le développement personnel et professionnel de chaque apprenant. Grâce à des séances de mentorat et un suivi individualisé, nos formateurs s'engagent à créer un environnement stimulant où chacun peut atteindre son plein potentiel. Leurs conseils avisés et leur accompagnement sur mesure permettent de relever les défis du monde professionnel avec confiance et compétence.
+              
+                        </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/details-2.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>Infrastructures modernes</h3>
+          
+            <p>
+              Nous mettons à votre disposition des équipements à la pointe de la technologie pour garantir une expérience d’apprentissage optimale. Nos salles de cours sont soigneusement aménagées pour s’adapter aux besoins des formations techniques, offrant un environnement propice à la créativité et à la productivité. Vous aurez accès à des outils numériques dernier cri, des logiciels professionnels et des espaces collaboratifs conçus pour encourager l’échange et le travail en équipe.<br>
+                <br>
+              Nos infrastructures incluent également des laboratoires spécialisés, des ateliers pratiques, et des espaces de détente modernes, permettant à chaque apprenant de concilier apprentissage et bien-être. Tout est pensé pour vous immerger dans des conditions proches de celles du monde professionnel, afin de vous préparer au mieux aux défis de demain.</p>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/details-3.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up">
+            <h3>Suivi personnalisé</h3>
+            <p>
+              Nous plaçons chaque étudiant au cœur de notre démarche pédagogique en proposant un accompagnement individualisé tout au long de son parcours. Dès son entrée, un conseiller dédié aide l’étudiant à définir ses objectifs personnels et professionnels. Grâce à des évaluations régulières, nous identifions les points forts et les axes d’amélioration afin de proposer des solutions adaptées, comme des séances de tutorat, des ateliers pratiques ou un encadrement renforcé sur des compétences spécifiques.<br>
+                <br>
+              En parallèle, nous préparons activement chaque étudiant à son insertion professionnelle grâce à des conseils sur la recherche d’emploi, la rédaction de CV et de lettres de motivation, ainsi que la simulation d’entretiens d’embauche. Notre objectif est de garantir une progression optimale et de transformer les ambitions de chacun en succès concrets.            
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/details-4.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+            <h3>Partenariats avec des entreprises</h3>
+            
+            <p>
+              Grâce à nos nombreux partenariats stratégiques avec des entreprises de premier plan, nous offrons à nos étudiants des opportunités concrètes pour entrer dans le monde professionnel. Ces collaborations permettent l’accès à des stages, des missions en entreprise et des projets tutorés qui favorisent une immersion directe dans les réalités du marché.<br>
+                <br>
+              Nos partenaires, issus de secteurs variés, contribuent également à enrichir nos formations par des interventions, des ateliers et des conférences, offrant ainsi une vision actualisée des exigences du monde du travail. En fin de parcours, ces relations privilégiées ouvrent des portes pour l’embauche, assurant à nos étudiants un tremplin solide vers une carrière réussie.</p>
+          </div>
+        </div><!-- Features Item -->
+
+      </div>
+
+    </section><!-- /Details Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <div>
+          <span>Verifiez notre</span> <span class="description-title">Gallery</span>
+          <p class="paragraph">Découvrez notre galerie et plongez dans nos moments les plus mémorables en images !</p>
+        </div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/cham.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section dark-background">
+
+      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/eben.jpg" class="testimonial-img" alt="" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+                <h3>Ebénézer DOUGAH</h3>
+                <h4>Etudiant en développement web</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>"Ma formation en développement web à JesMar a été un véritable tremplin. Grâce à un enseignement à la fois théorique et pratique, j'ai acquis les compétences nécessaires pour travailler sur des projets réels. L'accompagnement personnalisé des formateurs m'a permis de développer une solide expertise. Aujourd'hui, je ne regrette absolument pas mon choix de formation !" </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/justine.jpeg" class="testimonial-img" alt="" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+                <h3>Justine ADJANONHOUN</h3>
+                <h4>Diplômé en Maintenance Informatiqueet réseaux </h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>J'ai choisi JesMar pour la qualité de sa formation en maintenance information et je n'ai pas été déçu. Les cours étaient très bien structurés, avec une forte composante pratique qui m’a permis de maîtriser rapidement les aspects techniques de mon métier. Le programme était en phase avec les exigences actuelles du marché, et grâce aux stages proposés par l'école, j'ai trouvé un emploi stable dans une entreprise leader dans le secteur de la maintenance. Les formateurs sont vraiment passionnés et toujours disponibles pour nous guider."</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/Juvenal.jpg" class="testimonial-img" alt="" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+                <h3>Etudiant en Maintenance Informatique</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>"J'ai choisi JesMar pour la qualité de sa formation dans le metier de l'informatique et je n'ai pas été déçu. Les cours étaient très bien structurés, avec une forte composante pratique qui m’a permis de maîtriser rapidement les aspects techniques de mon métier. Le programme est en phase avec les exigences actuelles du marché, et grâce aux stages proposés par l'école. Les formateurs sont vraiment passionnés et toujours disponibles pour nous guider."</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Méthodologie et Pédagogie</h2>
+        <div><span>Une approche pratique et axée sur l'innovation</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="pic">
+                <img src="assets/img/team/sog.jpg" class="img-fluid" alt="Image 1">
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="pic">
+                <img src="assets/img/team/mmv.jpg" class="img-fluid" alt="Image 2">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="pic">
+                <img src="assets/img/team/marvin.jpg" class="img-fluid" alt="Image 2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>Nous croyons que la meilleure façon d'apprendre est de pratiquer... <br>
+            Sur le terrain, dans nos ateliers, avec des équipements professionnels, en immersion totale <br>
+            dans les métiers techniques. Chez JesMar, chaque jour est une opportunité concrète de transformer votre passion en compétence.</p>
+      </div>
+      
+      
+
+    </section><!-- /Team Section -->
+
+    
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section light-background">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Questions Fréquemment Posées</span><strong>(FAQ)</strong></h3>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Comment puis-je m'inscrire à une formation ?</h3>
+                <div class="faq-content">
+                  <p>L’inscription à nos formations se fait directement sur notre site via le formulaire d'inscription en ligne. Il vous suffit de remplir vos informations, de choisir la formation qui vous intéresse et de soumettre votre demande. Un conseiller vous contactera ensuite pour finaliser votre inscription et vous fournir toutes les informations nécessaires.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Quelles sont les conditions d’admission ?</h3>
+                <div class="faq-content">
+                  <p>
+                    Les conditions d’admission varient en fonction de la formation choisie. En général, un niveau minimum de [préciser le niveau requis : Bac, Bac+2, etc.] est requis. Pour certaines formations, un entretien de motivation peut être demandé pour mieux comprendre votre projet professionnel et vos attentes. Nous vous invitons à consulter la page de chaque formation pour connaître les conditions spécifiques.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Quelles formations proposez-vous ?</h3>
+                <div class="faq-content">
+                  <p>
+                    Nous proposons une gamme de formations dans des domaines techniques variés tels que :
+                    - Développement Web 
+                    - Maintenance Informatique
+                    - Metier de mode et vetement
+                    - Comptabilite Merkating
+                    Chaque formation est conçue pour vous préparer aux défis du monde professionnel et inclut des modules théoriques et pratiques.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="assets/img/faq.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <div><span>Nous Contactez</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Adresse</h3>
+                <p>03 BP 2553 Cotonou-Jéricho</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Contact</h3>
+                <p>+229 0152 762 222 / 0152 831 111</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Adresse Email</h3>
+                <p>jesmar.tech.pro@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Votre Nom" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Votre mail" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Objets" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Messages" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Votre message a bien été envoyer. Merci!</div>
+
+                  <button type="submit">Envoyer</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+<!-- Event Section -->
+<section id="event-gallery" class="py-5 bg-light">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Événements</h2>
+    <div><span>Moments forts</span></div>
+    <p class="section-description">Découvrez nos moments forts en images et vidéos. <br>
+      Pas d'événement en vue pour le moment. Restez connecté pour recevoir en temps et en heures les dernières mises à jour 😊👋. <br>
+      </p>
+  </div>
+  <div class="container">
+    <div class="row g-3">
+      <!-- Ligne 1 -->
+      <!-- <div class="col-lg-4 col-md-6">
+        <img src="assets/img/team/franc-even.jpg" class="media-item img-fluid rounded shadow" alt="Image 1">
+      </div> -->
+      <div class="col-lg-4 col-md-6">
+        <video class="media-item img-fluid rounded shadow" controls>
+          <source src="assets/img/team/basse.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- <div class="col-lg-4 col-md-6">
+        <img src="assets/img/team/van-even.jpg" class="media-item img-fluid rounded shadow" alt="Image 2">
+      </div> -->
+
+      <!-- Ligne 2 -->
+      <!-- <div class="col-lg-4 col-md-6">
+        <img src="assets/img/team/sam-even.jpg" class="media-item img-fluid rounded shadow" alt="Image 3">
+      </div> -->
+      <div class="col-lg-4 col-md-6">
+        <video class="media-item img-fluid rounded shadow" controls>
+          <source src="assets/img/team/vv.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- <div class="col-lg-4 col-md-6">
+        <img src="assets/img/team/jen-even.jpg" class="media-item img-fluid rounded shadow" alt="Image 4">
+      </div> -->
+
+      <!-- Ligne 3 -->
+      <div class="col-lg-4 col-md-6">
+        <video class="media-item img-fluid rounded shadow" controls>
+          <source src="assets/img/team/Hymne.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <video class="media-item img-fluid rounded shadow" controls>
+          <source src="assets/img/team/bonté.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- <div class="col-lg-4 col-md-6">
+        <img src="assets/img/team/sim-even.jpg" class="media-item img-fluid rounded shadow" alt="Image 5">
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <img src="assets/img/team/gallery-2.jpg" class="media-item img-fluid rounded shadow" alt="Image 6">
+      </div> -->
+    </div>
+  </div>
+</section>
+<!-- /Event Section -->
+
+
+
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">JesMar</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>03 BP 2553 </p>
+            <p>Cotonou-Jéricho</p>
+            <p class="mt-3"><strong>Téléphone:</strong> <span>+229 0152 762 222 / 0152 831 111</span></p>
+            <p><strong>Email:</strong> <span>jesmar.tech.pro@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Liens utiles</h4>
+          <ul>
+            <li><a href="#">Acceuil</a></li>
+            <li><a href="#">Nos formations</a></li>
+            <li><a href="#">Pourquoi nous choisir</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nos Services</h4>
+          <ul>
+            <li><a href="#"> Developpement Web</a></li>
+            <li><a href="#">Installation et Maintenance</a></li>
+            <li><a href="#"> Comptabilité Marketing</a></li>
+            <li><a href="#">Métier de mode et de vêtement</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Notre Newsletter</h4>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe" autocapitalize="off"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Votre message a bien été envoyer. Merci!</div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">JesMar</strong> <span>Tous droits réservés</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by JesMar
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
