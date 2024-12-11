@@ -16,6 +16,12 @@
           "color: color-mix(in srgb, var(--default-color), transparent 20%)"
         ]
       }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
     ]
   }
 }
